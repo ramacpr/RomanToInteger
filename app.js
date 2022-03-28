@@ -4,16 +4,67 @@
     while(true){
         if(input == '') break
         let result = RomanToNumber(input)
-        console.log(result)
+        console.log(input + ' = ' + result)
         input = GetUserNumeral.next().value
     }
 })();
 
 
 function* RomanInputs(){
-    yield "III"
-    yield "XII"
-    yield "MMC"
+    yield I
+    yield II
+    yield III
+    yield IV
+    yield V
+    yield VI
+    yield VII
+    yield VIII
+    yield IX
+    yield X
+    yield XI
+    yield XII
+    yield XIII
+    yield XIV
+    yield XV
+    yield XVI
+    yield XVII
+    yield XVIII
+    yield XIX
+    yield XX
+    yield XXI
+    yield XXII
+    yield XXIII
+    yield XXIV
+    yield XXX
+    yield XL
+    yield L
+    yield LX
+    yield LXX
+    yield LXXX
+    yield XC
+    yield C
+    yield CI
+    yield CII
+    yield CC
+    yield CCC
+    yield CD
+    yield D
+    yield DC
+    yield DCC
+    yield DCCC
+    yield CM
+    yield M
+    yield MI
+    yield MII
+    yield MIII
+    yield MCM
+    yield MM
+    yield MMI
+    yield MMII
+    yield MMC
+    yield MMM
+    yield MV
+    yield V
     return ''
 }
 
